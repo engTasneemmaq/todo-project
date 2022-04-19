@@ -56,8 +56,10 @@ main img {
     
 }
 input[type="text" i] {
-    width: 200px
-    padding: 500px;
+
+    width: 170px;
+    height: 70px;
+    text-align: center;
    }
 
 
