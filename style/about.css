@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Square+Peg&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+html::-webkit-scrollbar-track-piece{
+    width: 0.8em;;
+}
+body {
+    font-family: 'Kavivanar', cursive;
+    background: darkgreen;
+}
+
+header {
+    background-color:darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: deeppink;
+
+}
+
+header li {
+    padding-left: 20px;
+    list-style-type: none;
+
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin-top: auto;
+
+    font-weight: bold;
+    color: red;
+}
+
+main img {
+    width: 75px;
+    margin-left: 500px;
+    
+}
+
+.form{
+    max-width: 30em!important;
+	margin-left: 400px;
+	margin-right: auto!important;
+    
+}
+input[type="text" i] {
+    width: 200px
+    padding: 500px;
+   }
+
+
+   .form .label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    display: block;
+    color: aquamarine;
+
+} 
+
+.form input[type="text"],
+.form textarea{
+    padding: 15px 5px;
+    box-sizing: border-box;
+    width: 400px;
+    border: 2px solid #fff;
+}
+
+
+
+
+.btn{
+    position:relative;
+    bottom: 5px;
+    width: 20%;
+    border: 3px solid blue;
+    color: aquamarine;
+}
+
+footer{
+    background-color:darkgoldenrod;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center
+
+}
