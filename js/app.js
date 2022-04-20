@@ -1,30 +1,27 @@
 'use strict';
 
+let answers =[];
+let Q1 = askQuestion("is your a developer?", "Yes , No");
+let Q2 = askQuestion("is your intersted with js course?", "Yes , No");
+let Q3 = askQuestion("can understand everything?", "Yes , No");
+answers = [Q1 , Q2 , Q3];
+printAnswers(answers);
 
-let typeQ1 = askQ("is your a developer?", "Yes , No");
-let typeQ2 = askQ("is your intersted with js course?", "Yes , No");
-let typeQ3 = askQ("can understand everything?", "Yes , No");
-answers= [typeQ1 , typeQ2 , typeQ3];
-
-function myAns(){
-
-
-
-for (let i = 0; i < mainList.length; i++) {
-  if(mainList.push == "Yes")
-{
-  console.log(mainList.push.toLowerCase("Yes"));
+function askQuestion(question){
+  let answer = prompt(question);
+  return answer
 }
-else if(mainList.push == "NO")
-{
-  console.log(mainList.push.toLowerCase("No"));
-}
-else{
-console.log(" is not valid");
-}
+function printAnswers(array){
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] == null || array[i] === ""){
+      console.log("is not valid");
+    }
+    
+    else {
+      console.log(array[i]);
+    }
 
 }
-
- 
 }
+
 
