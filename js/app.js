@@ -1,10 +1,14 @@
 'use strict';
 
-let typeQ1 = prompt("is your a developer?", "Yes , No");
-let typeQ2 = prompt("is your intersted with js course?", "Yes , No");
-let typeQ3 = prompt("can understand everything?", "Yes , No");
-let mainList = [3];
-mainList.push(typeQ1, typeQ2, typeQ3);
+
+let typeQ1 = askQ("is your a developer?", "Yes , No");
+let typeQ2 = askQ("is your intersted with js course?", "Yes , No");
+let typeQ3 = askQ("can understand everything?", "Yes , No");
+answers= [typeQ1 , typeQ2 , typeQ3];
+
+function myAns(){
+
+
 
 for (let i = 0; i < mainList.length; i++) {
   if(mainList.push == "Yes")
@@ -18,6 +22,9 @@ else if(mainList.push == "NO")
 else{
 console.log(" is not valid");
 }
+
+}
+
  
 }
 
